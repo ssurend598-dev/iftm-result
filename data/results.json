@@ -1,0 +1,218 @@
+{
+  "1st Year": {
+    "session": "JUNE - 2024 FIRST YEAR",
+    "name": "SHOEB",
+    "father": "SHADID",
+    "roll": "24BCOM8816671",
+    "reg": "24BCOM817727",
+    "course": "BACHELOR OF COMMERCE",
+    "subject": "COMMERCE",
+    "college": "I.F.T.M. UNIVERSITY CAMPUS",
+    "dob": "25/04/2005",
+    "subjects": [
+      {
+        "code": "BCOM101",
+        "subject": "BUSINESS ORGANIZATION",
+        "theory": 70,
+        "internal": 24,
+        "total": 77,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM102",
+        "subject": "FINANCIAL ACCOUNTING",
+        "theory": 48,
+        "internal": 27,
+        "total": 75,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM103",
+        "subject": "BUSINESS LAW",
+        "theory": 42,
+        "internal": 21,
+        "total": 63,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM104",
+        "subject": "BUSINESS COMMUNICATION",
+        "theory": 59,
+        "internal": 24,
+        "total": 83,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM105",
+        "subject": "PRINCIPLES OF ECONOMICS",
+        "theory": 50,
+        "internal": 25,
+        "total": 75,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM106",
+        "subject": "COMPREHENSIVE VIVA-VOCE",
+        "theory": 61,
+        "internal": 22,
+        "total": 83,
+        "max": 100,
+        "min": 40
+      }
+    ],
+    "total": 456,
+    "max_total": 600,
+    "min_total": 240,
+    "grand_total": "456/600",
+    "final_result": "FIRST DIVISION"
+  },
+  "2nd Year": {
+    "session": "JUNE - 2025 SECOND YEAR",
+    "name": "SHOEB",
+    "father": "SHADID",
+    "roll": "24BCOM8816671",
+    "reg": "24BCOM817727",
+    "course": "BACHELOR OF COMMERCE",
+    "subject": "COMMERCE",
+    "college": "I.F.T.M. UNIVERSITY CAMPUS",
+    "dob": "25/04/2005",
+    "subjects": [
+      {
+        "code": "BCOM201",
+        "subject": "INCOME TAX LAWS",
+        "theory": 48,
+        "internal": 26,
+        "total": 74,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM202",
+        "subject": "BANKING AND INSURANCE",
+        "theory": 49,
+        "internal": 23,
+        "total": 72,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM203",
+        "subject": "MICRO ECONOMICS",
+        "theory": 54,
+        "internal": 26,
+        "total": 80,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM204",
+        "subject": "INDIAN ECONOMY",
+        "theory": 61,
+        "internal": 28,
+        "total": 89,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM205",
+        "subject": "PRINCIPLES OF MARKETING",
+        "theory": 53,
+        "internal": 22,
+        "total": 75,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM206",
+        "subject": "BUSINESS COMMUNICATION",
+        "theory": 55,
+        "internal": 24,
+        "total": 79,
+        "max": 100,
+        "min": 40
+      }
+    ],
+    "total": 469,
+    "max_total": 600,
+    "min_total": 240,
+    "grand_total": "925/1200",
+    "final_result": "FIRST DIVISION"
+  },
+  "3rd Year": {
+    "session": "JUNE - 2026 THIRD YEAR",
+    "name": "SHOEB",
+    "father": "SHADID",
+    "roll": "24BCOM8816671",
+    "reg": "24BCOM817727",
+    "course": "BACHELOR OF COMMERCE",
+    "subject": "COMMERCE",
+    "college": "I.F.T.M. UNIVERSITY CAMPUS",
+    "dob": "25/04/2005",
+    "subjects": [
+      {
+        "code": "BCOM301",
+        "subject": "MANAGEMENT ACCOUNTING",
+        "theory": 59,
+        "internal": 29,
+        "total": 88,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM302",
+        "subject": "COMPUTERIZED ACCOUNTING SYSTEM",
+        "theory": 62,
+        "internal": 23,
+        "total": 85,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM303",
+        "subject": "COMPANY LAW",
+        "theory": 55,
+        "internal": 26,
+        "total": 81,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM304",
+        "subject": "INTERNATIONAL BUSINESS",
+        "theory": 58,
+        "internal": 24,
+        "total": 82,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM305",
+        "subject": "FUNDAMENTALS OF INVESTMENT",
+        "theory": 64,
+        "internal": 22,
+        "total": 86,
+        "max": 100,
+        "min": 40
+      },
+      {
+        "code": "BCOM306",
+        "subject": "ORGANIZATIONAL BEHAVIOUR",
+        "theory": 57,
+        "internal": 27,
+        "total": 84,
+        "max": 100,
+        "min": 40
+      }
+    ],
+    "total": 506,
+    "max_total": 600,
+    "min_total": 240,
+    "grand_total": "1431/1800",
+    "final_result": "FIRST DIVISION"
+  }
+}

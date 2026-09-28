@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Result | IFTM University - Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar">
+    <div class="logo-wrap"><img src="assets/iftm-logo.png" alt="IFTM University"></div>
+    <div class="top-links">ONLINE FEE&nbsp;&nbsp; ERP LOGIN&nbsp;&nbsp; LIBRARY&nbsp;&nbsp; CAREER&nbsp;&nbsp; ENQUIRE&nbsp;&nbsp; IQAC&nbsp;&nbsp; GRIEVANCE&nbsp;&nbsp; FEEDBACK&nbsp;&nbsp; PROFILE</div>
+    <div class="social">◉ ◔ ✉ ⌕ &nbsp;&nbsp; f&nbsp; t&nbsp; ◎ in&nbsp; ▶</div>
+  </div>
+  <nav class="nav">
+    <span>ABOUT US</span><span>ACADEMICS</span><span>ADMISSIONS</span><span>EXAMINATION</span>
+    <span>CAMPUS LIFE</span><span>RESEARCH</span><span>TRAINING &amp; PLACEMENTS</span>
+    <span>GALLERY</span><span>PH.D. ENTRANCE 2026 <b class="new">NEW</b></span>
+  </nav>
+</header>
+
+<div class="demo-badge">DEMO / UNOFFICIAL RESULT PORTAL</div>
+
+<main>
+  <section class="result-box" id="searchBox">
+    <h1>Result</h1>
+    <form id="resultForm">
+      <div class="form-row"><label>Roll No:<em>*</em></label><input id="roll" required></div>
+      <div class="form-row"><label>Registration No:</label><input id="reg"></div>
+      <div class="form-row"><label>Date of Birth:</label><input id="dob" type="text" placeholder="dd/mm/yyyy"></div>
+      <div class="form-row"><label>Session:</label>
+        <select id="session">
+          <option value="1st Year">2024 First Year</option>
+          <option value="2nd Year">2025 Second Year</option>
+          <option value="3rd Year">2026 Third Year</option>
+        </select>
+      </div>
+      <div class="submit-row"><button type="submit">Submit</button></div>
+    </form>
+    <div id="message" class="message"></div>
+  </section>
+
+  <section class="result-card hidden" id="resultCard">
+    <div class="result-head">
+      <div><strong>I.F.T.M UNIVERSITY MORADABAD</strong><br><span id="sessionText"></span></div>
+      <button id="backBtn" class="back">Search Again</button>
+    </div>
+    <div class="student-grid">
+      <div><b>Name of Student</b><span id="rName"></span></div>
+      <div><b>Father's Name</b><span id="rFather"></span></div>
+      <div><b>Roll No.</b><span id="rRoll"></span></div>
+      <div><b>Regd. No.</b><span id="rReg"></span></div>
+      <div><b>Date of Birth</b><span id="rDob"></span></div>
+      <div><b>Course</b><span id="rCourse"></span></div>
+      <div><b>College/Institution</b><span id="rCollege"></span></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>CODE</th><th>SUBJECT</th><th>THEORY (70)</th><th>INTERNAL (30)</th><th>TOTAL (100)</th><th>MAX</th><th>MIN</th></tr></thead>
+        <tbody id="marksBody"></tbody>
+        <tfoot><tr><th colspan="4">TOTAL</th><th id="total"></th><th id="maxTotal"></th><th id="minTotal"></th></tr></tfoot>
+      </table>
+    </div>
+    <div class="grand">
+      <span><b>GRAND TOTAL</b> <strong id="grandTotal"></strong></span>
+      <span><b>FINAL RESULT</b> <strong id="finalResult"></strong></span>
+    </div>
+  </section>
+</main>
+
+<aside class="register">REGISTER ONLINE 2026-27</aside>
+
+<footer>
+  <div class="footer-cols">
+    <div><h4>Quick Links</h4><p>Swayam Portal</p><p>Swayam FAQ</p><p>Swayam Prabha</p><p>NPTEL</p><p>NPTEL FAQ</p><p>E-Pathshala</p><p>NAD</p><p>NAI Depository</p><p>NIRF</p><p>NCTE</p><p>UGC e-Samadhan Portal</p><p>Sitemap</p></div>
+    <div><h4>More Links</h4><p>MOUs &amp; Collaboration</p><p>Newsletter</p><p>Print Media</p><p>Policies &amp; SOPs</p><p>UGC Proforma</p><p>Public Self Disclosure</p><p>Conferences/Seminars/FDP/Symposia/Webinars</p><p>Co-Curricular Activities</p><p>Extra Curricular Activities</p><p>Anti-Ragging Committee &amp; Squad</p></div>
+    <div><h4>Microsites</h4><p>IFTM University Alumni Association</p><p>National Cadet Corps</p><p>National Service Scheme</p><p>Unnat Bharat Abhiyan</p><p>IFTM Business Incubation Foundation</p><p>Admission Guidelines for Foreign Students</p></div>
+    <div><h4>Visitor Count</h4><div class="counter">001385251</div><p>Website Updated on: 21-07-2026<br>@ 5:00 PM</p></div>
+    <div><h4>Google Map Location</h4><div class="map-placeholder">IFTM University<br>Moradabad</div></div>
+  </div>
+  <div class="copyright">© All rights reserved 2021-22 <b>IFTM University</b></div>
+</footer>
+
+<script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
